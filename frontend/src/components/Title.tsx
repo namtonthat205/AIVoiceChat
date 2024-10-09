@@ -11,7 +11,7 @@ const Title = ({ setMessages } : Props) => {
     const resetConversation = async() => {
         setIsResetting(true);
 
-        await axios.get("http://localhost:8000/reset").then((res) => {
+        await axios.get("https://aivoicechat-l3t4.onrender.com/reset").then((res) => {
             if(res.status = 200)
             {
                 alert(res.data)

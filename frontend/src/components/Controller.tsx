@@ -34,7 +34,7 @@ const Controller = () => {
 
           // Send form data to API endpoint
           await axios
-            .post("http://localhost:8000/post-audio/", formData, {
+            .post("https://aivoicechat-l3t4.onrender.com/post-audio/", formData, {
               headers: {
                 "Content-Type": "audio/wav",
               },
