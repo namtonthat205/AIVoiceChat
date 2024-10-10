@@ -70,7 +70,7 @@ const Controller = () => {
       {/* Title */}
       <Title setMessages={setMessages} />
 
-      <div className="flex flex-col justify-between w-full h-full overflow-y-scroll pb-96">
+      <div className="flex flex-col justify-between w-full h-full overflow-y-scroll pb-96 max-w-[80%] md:max-w-[80%] lg:max-w-[80%] p-2 mx-auto rounded-lg bg-opacity-90" >
         {/* Conversation */}
 
         {isPlaying && (

@@ -14,7 +14,6 @@ const Title = ({ setMessages } : Props) => {
         await axios.get("https://aivoicechat-l3t4.onrender.com/reset").then((res) => {
             if(res.status = 200)
             {
-                alert(res.data)
                 setMessages([])
             }
         }).catch((err) => {
